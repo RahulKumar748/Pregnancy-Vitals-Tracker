@@ -90,5 +90,5 @@ VitalsApp.kt                  # Application class for Hilt
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/<your-username>/PregnancyVitals.git
+   git clone https://github.com/RahulKumar748/Pregnancy-Vitals-Tracker.git
    cd PregnancyVitals
