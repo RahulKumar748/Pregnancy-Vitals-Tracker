@@ -51,39 +51,38 @@ The app design is available on Figma:
 - **Hilt DI** for dependency injection
 - **Utilities**: Constants, dimensions, colors, and theme management
 
-### Folder Structure
+## 📂 Folder Structure
 
 data/
 ├─ local/
-│ ├─ Vital.kt # Room entity
-│ ├─ VitalDao.kt # DAO interface
-│ └─ VitalsDatabase.kt # Room Database
+│  ├─ Vital.kt               # Room entity
+│  ├─ VitalDao.kt            # DAO interface
+│  └─ VitalsDatabase.kt      # Room Database
 ├─ repository/
-│ └─ VitalsRepository.kt
+│  └─ VitalsRepository.kt
 └─ di/
-└─ AppModule.kt # Hilt DI module
+└─ AppModule.kt           # Hilt DI module
 
 service/
-└─ TimeService.kt # Background timer service
+└─ TimeService.kt             # Background timer service
 
 ui/
 ├─ components/
-│ ├─ AddVitalsDialog.kt
-│ ├─ TimerSection.kt
-│ └─ VitalListItem.kt
+│  ├─ AddVitalsDialog.kt
+│  ├─ TimerSection.kt
+│  └─ VitalListItem.kt
 ├─ theme/
-│ ├─ Color.kt
-│ ├─ Dimens.kt
-│ ├─ Type.kt
-│ └─ VitalsTrackerTheme.kt
+│  ├─ Color.kt
+│  ├─ Dimens.kt
+│  ├─ Type.kt
+│  └─ VitalsTrackerTheme.kt
 ├─ MainActivity.kt
 └─ VitalsViewModel.kt
 
 utils/
 └─ Constants.kt
 
-VitalsApp.kt # Application class for Hilt
-
+VitalsApp.kt                  # Application class for Hilt
 
 ---
 
