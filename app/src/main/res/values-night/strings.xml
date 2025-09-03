@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="track_my_pregnancy">Track My Pregnancy</string>
+    <string name="stop">Stop</string>
+    <string name="start">Start</string>
+    <string name="timer">Timmer - %1$s</string>
+    <string name="mmhg">%1$d/%2$d mmHg</string>
+    <string name="kg">%1$s kg</string>
+    <string name="kicks">%1$d kicks</string>
+    <string name="sys_bp">Sys BP</string>
+    <string name="dia_bp">Dia BP</string>
+    <string name="weight_in_kg">Weight (in kg)</string>
+</resources>
