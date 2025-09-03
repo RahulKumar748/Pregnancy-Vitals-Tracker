@@ -28,7 +28,7 @@ The app design is available on Figma:
 ### Part I – Vitals Tracking
 - Add pregnancy vitals:
   - Blood Pressure (Systolic / Diastolic)
-  - Heart Rate
+  - Heart Rate: automatically generated between 60–100 BPM (not entered by the user, as per Figma design)
   - Weight
   - Baby Kicks Count
 - Live-updating list of vitals using `LazyColumn`
